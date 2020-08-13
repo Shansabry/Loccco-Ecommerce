@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce-clone",
+  "version": "1.0.0",
+  "description": "A ecommerce test project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shansabry/EcommerceClone.git"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Shanmuga Sabareesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shansabry/EcommerceClone/issues"
+  },
+  "homepage": "https://github.com/Shansabry/EcommerceClone#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  }
+}
