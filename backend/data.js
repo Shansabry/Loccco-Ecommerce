@@ -8,7 +8,8 @@ export default  {
             price: 23000,
             brand: "Oppo",
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            totalStock: 45
         },
         {
             _id: 17564,
@@ -18,7 +19,8 @@ export default  {
             price: 42000,
             brand: "Oppo",
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            totalStock: 4
         },
         {
             _id: 20111,
@@ -28,7 +30,8 @@ export default  {
             price: 10000,
             brand: "Oppo",
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            totalStock: 0
         }
     ]
 }
